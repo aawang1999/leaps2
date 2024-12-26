@@ -1,0 +1,137 @@
+.services__filters {
+  display: flex;
+  align-items: center;
+  column-gap: 1.875rem;
+  margin-bottom: 2.5rem;
+}
+
+.services__item {
+  cursor: pointer;
+  font-weight: var(--font-bold);
+}
+
+.services__item:hover {
+  color: var(--first-color);
+}
+
+.services__subtitle {
+  margin-bottom: 3.75rem;
+  max-width: 700px;
+}
+
+.services__container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.875rem;
+}
+
+.services__card {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--container-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  height: 400px;
+  transition: all 0.3s ease-in-out;
+}
+
+.services__card:hover {
+  transform: translateY(-10px);
+}
+
+.services__hourly-category,
+.services__yearly-category,
+.services__free-category,
+.services__zh-free-category {
+  color: #fff;
+  border-bottom-left-radius: 0.98rem;
+  border-bottom-right-radius: 0.98rem;
+  position: absolute;
+  top: 0;
+  font-size: var(--small-font-size);
+  display: inline-block;
+  padding: 0.19rem 0.625rem;
+  transition: 0.3s;
+}
+
+.services__hourly-category {
+  background-color: var(--first-color);
+  left: 1.5rem;
+}
+
+.services__yearly-category {
+  background-color: #2596be;
+  left: 1.5rem;
+}
+
+.services__free-category {
+  background-color: #e5bc52;
+  left: 6rem;
+}
+
+.services__zh-free-category {
+  background-color: #e5bc52;
+  left: 7rem !important;
+}
+
+.services__inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  padding: 0 1.25rem;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.services__top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__title {
+  font-size: var(--h3-font-size);
+  text-align: center;
+  margin-top: 3.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.services__caption {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.services__price {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: 3.75rem;
+}
+
+.services__price em {
+  font-style: normal;
+  font-size: var(--small-font-size);
+  margin-right: 0.5rem;
+  vertical-align: super;
+}
+
+.services__price span {
+  font-size: var(--normal-font-size);
+  font-weight: 400;
+  margin-left: 0.75rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .services__container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1.875rem;
+  }
+
+  .services__card {
+    height: 350px;
+  }
+
+  .services__zh-title {
+    font-size: 1.25rem !important;
+  }
+}
