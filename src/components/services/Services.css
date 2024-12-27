@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   column-gap: 1.875rem;
+  margin-top: 3.75rem;
   margin-bottom: 2.5rem;
 }
 
@@ -15,7 +16,7 @@
 }
 
 .services__subtitle {
-  margin-bottom: 3.75rem;
+  margin-bottom: 1.25rem;
   max-width: 700px;
 }
 

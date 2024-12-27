@@ -17,7 +17,11 @@ const Sidebar = () => {
   return (
     <>
       <aside className={toggle ? "aside show-menu" : "aside"}>
-        <a href="#home" className='nav__logo'>
+        <a href="#home" className='nav__logo' onClick={
+          () => {
+            if (toggle) setToggle(!toggle)
+          }
+        }>
           <img src={Logo} alt="" />
         </a>
         <nav className='nav'>

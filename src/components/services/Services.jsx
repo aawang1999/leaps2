@@ -19,8 +19,21 @@ const Services = () => {
         {language === 'en' ? 'Services' : '服務項目'}
       </h2>
       <div className={`services__subtitle ${language === 'en' ? '' : 'zh__normal'}`}>
-        {language === 'en' ? 'Click the tabs below to learn more about our offerings. For your first meeting, we recommend a free General Consultation session.' : '歡迎透過點擊以下選項了解我們的服務詳情。若是首次諮詢，歡迎免費預約綜合諮詢會議，以討論大學申請的方向。'}
+        {language === 'en' ? 
+          (
+            <>
+              Click the tabs below to learn more about our offerings. If this is your first time using our services, please leave your information for a <strong>free consultation session</strong> by clicking the button below and we'll get in touch shortly!
+            </>
+          ) : (
+            <>
+              歡迎瀏覽以下選項以了解我們的服務詳情。若是首次諮詢，請點擊下方按鈕並<strong>免費預約一場諮詢會議</strong>。我們將盡快與您聯繫！
+            </>
+          )
+        }
       </div>
+      <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/4w2bnCFUoCAUTAJb8" className={`btn ${language === 'en' ? '' : 'zh__normal'}`}>
+        {language === 'en' ? 'Get Started' : '點擊報名'}
+      </a>
       <div className="services__filters">
         <span className={`services__item ${language === 'en' ? '' : 'zh__normal'}`} onClick={() => setItems(Menu)}>{language === 'en' ? 'All' : '所有服務'}</span>
         <span className={`services__item ${language === 'en' ? '' : 'zh__normal'}`} onClick={() => filterItem("Hourly")}>{language === 'en' ? 'Hourly' : '小時制'}</span>

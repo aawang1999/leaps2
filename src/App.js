@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import About from './components/about/About'
 import Advisors from './components/advisors/Advisors'
+import Banner from './components/banner/Banner'
 import Home from './components/home/Home'
 import Reviews from './components/reviews/Reviews'
 import Services from './components/services/Services'
@@ -12,6 +13,7 @@ const App = () => {
     <>
       <Sidebar />
       <main className='main'>
+        <Banner />
         <Home />
         <Reviews />
         <About />
