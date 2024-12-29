@@ -14,8 +14,8 @@ const data = [
     id: 2,
     title: "Cost-Effective",
     zhTitle: "價格誠實",
-    caption: "College consulting in the Bay Area can easily cost $10000 per year. For 3 years of consultation and 20 sessions per year, a single session could cost $500. Leaps halves this price at $4880 per year.",
-    zhCaption: "舊金山灣區的大學諮詢費用每年可達10000美元。若以3年諮詢，每年20次會議計算，每次諮詢會議的花費可達500美元。我們的服務每年僅需4880美元。",
+    caption: "College consulting in the Bay Area can easily cost $10000 per year. For 3 years of consultation and 20 sessions per year, a single session could cost $500. Leaps halves this price at $4980 per year.",
+    zhCaption: "舊金山灣區的大學諮詢費用每年可達10000美元。若以3年諮詢，每年20次會議計算，每次諮詢會議的花費可達500美元。我們的服務每年僅需4980美元。",
   },
   {
     id: 3,

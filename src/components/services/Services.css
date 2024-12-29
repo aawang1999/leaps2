@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   column-gap: 1.875rem;
-  margin-top: 3.75rem;
   margin-bottom: 2.5rem;
 }
 
@@ -39,8 +38,8 @@
   transform: translateY(-10px);
 }
 
-.services__hourly-category,
-.services__yearly-category,
+.services__session-category,
+.services__package-category,
 .services__free-category,
 .services__zh-free-category {
   color: #fff;
@@ -54,24 +53,24 @@
   transition: 0.3s;
 }
 
-.services__hourly-category {
+.services__session-category {
   background-color: var(--first-color);
   left: 1.5rem;
 }
 
-.services__yearly-category {
+.services__package-category {
   background-color: #2596be;
   left: 1.5rem;
 }
 
 .services__free-category {
   background-color: #e5bc52;
-  left: 6rem;
+  left: 6.5rem;
 }
 
 .services__zh-free-category {
   background-color: #e5bc52;
-  left: 7rem !important;
+  left: 6rem !important;
 }
 
 .services__inner-container {
