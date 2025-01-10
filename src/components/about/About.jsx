@@ -14,8 +14,8 @@ const data = [
     id: 2,
     title: "Cost-Effective",
     zhTitle: "價格誠實",
-    caption: "College consulting in the Bay Area can easily cost $10000 per year. For 3 years of consultation and 20 sessions per year, a single session could cost $500. Leaps halves this price at $4980 per year.",
-    zhCaption: "舊金山灣區的大學諮詢費用每年可達10000美元。若以3年諮詢，每年20次會議計算，每次諮詢會議的花費可達500美元。我們的服務每年僅需4980美元。",
+    caption: "Annual costs for US college consulting services range between $8000 and $15000. Premium packages can cost even more. We offer our personalized service at the competitive annual price of $9880.",
+    zhCaption: "美國大學諮詢的年費通常介於8000至15000美元之間。有些高端方案的年費甚至更高。我們以每年9880美元的誠實價格，提供每位學生個人化的諮詢服務。",
   },
   {
     id: 3,

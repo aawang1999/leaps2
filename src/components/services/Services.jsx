@@ -17,15 +17,15 @@ const dropdownData = [
     id: 2,
     title: 'What are Packages?',
     zhTitle: '方案介紹',
-    caption: 'Leaps packages contain a certain number of sessions. Parents or students who purchase a package are charged a one-time package price, unless they exceed the allotted number of sessions. Excess sessions will be charged by the hourly rate. Parents or students may use the package allotment towards any combination of Leaps sessions. All services included in a package terminate after the specified number of school years.',
+    caption: 'Leaps packages contain a certain number of sessions. Parents or students who purchase a package are charged a one-time package price, unless they exceed the allotted number of sessions. Excess sessions will be charged by the hourly rate. Parents or students may use the package allotment towards any combination of Leaps sessions. All services included in a package terminate at the end of the last school year.',
     zhCaption: '躍升的方案包含指定時數的服務。購買方案的家長或學生只需支付一次性的方案費用，除非服務的使用時數超出方案的指定時數。超出指定時數的服務均如同單次服務按小時收費。家長或學生可以將方案包含的時數用於任何組合的躍升服務。方案的所有相關服務將於指定的學年結束時終止。',
   },
   {
     id: 3,
     title: 'What is the Opt-In Program?',
     zhTitle: '方案加入計劃介紹',
-    caption: "Those who have purchased Leaps sessions but have not purchased a Leaps package may opt into a package at any time. When opting in, any sessions that the parent or student purchased during the same school year may be deducted from the package, up to the package's session allotment (e.g. if the parent or student, having purchased 10 sessions, opts into a One-Year Package, he will pay $4980 - 10 x $150 = $3480 and will have 40 - 10 = 30 sessions remaining in the package). The package terminates at the end of the last school year.",
-    zhCaption: '已購買躍升單次服務的家長或學生可以隨時加入躍升方案。加入方案時，所有當學年購買的單次服務價格與次數即可從方案中扣除（例如：如果某家長或學生已購買10小時的單次服務，再選擇加入一年方案，他可以支付$4980-10x$150=$3480，以享有40-10=30小時的諮詢服務）。方案的所有相關服務仍會於指定的學年結束時終止。',
+    caption: "Those who have purchased Leaps sessions but have not purchased a Leaps package may opt into a package at any time. When opting in, any sessions that the parent or student purchased during the same school year may be deducted from the package, up to the package's session allotment. The package terminates at the end of the last school year.",
+    zhCaption: '已購買躍升單次服務的家長或學生可以隨時加入躍升方案。加入方案時，所有當學年購買的單次服務價格與次數即可從方案中扣除。方案的所有相關服務仍會於指定的學年結束時終止。',
   },
 ]
 

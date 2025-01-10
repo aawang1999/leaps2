@@ -6,37 +6,27 @@ import { Context } from '../../Context'
 const data = [
   {
     id: 1,
-    title: "One-Year Package",
-    zhTitle: "一年方案",
-    caption: "Get 40 sessions for the price of 33.2 sessions.",
-    zhCaption: "以33.2小時的價格，享有40小時的服務。",
-    price: "4980",
-  },
-  {
-    id: 2,
-    title: "Two-Year Package",
-    zhTitle: "兩年方案",
-    caption: "Get 80 sessions for the price of 65.9 sessions.",
-    zhCaption: "以65.9小時的價格，享有80小時的服務。",
+    title: "Junior or Senior Package",
+    zhTitle: "11或12年級生方案",
+    caption: "Polishing your profile and accentuating your strengths, empowering you to pursue the most suitable university pathways. Includes 40 sessions.",
+    zhCaption: "打造一份展現您優點的申請素材，幫您實現最合適的升學道路。包含40小時的諮詢。",
     price: "9880",
   },
   {
-    id: 3,
-    title: "Four-Year Package",
-    zhTitle: "四年方案",
-    caption: "Get 160 sessions for the price of 125.3 sessions.",
-    zhCaption: "以125.3小時的價格，享有160小時的服務。",
-    price: "18800",
+    id: 2,
+    title: "Sophomore Package",
+    zhTitle: "10年級生方案",
+    caption: "Crafting an outstanding profile through prioritizing your activities and actualizing your goals. Includes 80 sessions.",
+    zhCaption: "透過完善的活動規劃及目標制定，幫您打造一份卓越的申請素材。包含80小時的諮詢。",
+    price: "18880",
   },
-]
-
-const dropdownData = [
   {
-    id: 1,
-    title: 'What is the Opt-In Program?',
-    zhTitle: '方案加入計劃介紹',
-    caption: "",
-    zhCaption: '',
+    id: 3,
+    title: "Freshman Package",
+    zhTitle: "9年級生方案",
+    caption: "Crafting an outstanding profile through developing your interests and cultivating your unique voice and goals. Includes 120 sessions.",
+    zhCaption: "透過培養興趣及發展個人化目標，幫您打造一份卓越的申請素材。包含120小時的諮詢。",
+    price: "26880",
   },
 ]
 
@@ -50,11 +40,11 @@ const Optin = () => {
           {language === 'en' ?
             (
               <>
-                Opt into a Leaps package anytime at <strong>no extra cost</strong>, and get a <strong>lower per-session price!</strong>
+                Opt into a Leaps package anytime at <strong>no extra cost!</strong>
               </>
             ) : (
               <>
-                隨時加入方案服務，即不需額外費用，又可享有優惠價格！
+                隨時加入方案服務，<strong>不需額外費用！</strong>
               </>
             )
           }
